@@ -1,5 +1,5 @@
 # drone_hardware
-A collection of hardware, drone design knowledge, and CAD models
+A collection of hardware, drone design knowledge, and CAD models. It also includes basic software environment setup.
 
 This page is a summary of basic quadrotor design for racing drones, commonly called FPV - First Person View - drones. The basic knowledge comes from various source, notably research groups like [uzh-rpg](https://github.com/uzh-rpg/rpg_quadrotor_control/wiki/RPG-Quadrotor-Setup), [ethz-asl](https://github.com/ethz-asl/mav_tools_public/wiki/Basic-MAV-Hardware), and dedicated communities and commercial pages like [getfpv.com](https://www.getfpv.com/learn/new-to-fpv-beginner/)
 
@@ -37,3 +37,11 @@ Normally racing drone is optimized so that it has minimum weight. Autonomous dro
 
 
 ## Wiring diagrams for a PX4 drone
+
+# Software Environment Setup
+
+## Configure TX2 + Orbitty carrier board
+
+Follow this detailed [instruction](https://magiccvs.byu.edu/wiki/#!computers/jetson.md) to setup the OS + support BSP for the combination through Jetpack Manager. Please note that even the instruction contains tiny mistakes.
+
+Aslo follow this [instruction](https://magiccvs.byu.edu/wiki/#!computers/headless.md) to enable/disable headless mode for the TX2.
